@@ -40,6 +40,7 @@ body{
 }
 .contact{
     max-width: 35%;
+    margin: 0 auto;
 }
 .contact-text{
     font-size: 18px;
@@ -111,6 +112,7 @@ body{
 }
 .introduction{
     max-width: 35%;
+    msrgin: 0 auto;
 }
 .project-image{
     width: 100%;
