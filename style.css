@@ -40,7 +40,6 @@ body{
 }
 .contact{
     max-width: 35%;
-    margin: 0 auto;
 }
 .contact-text{
     font-size: 18px;
@@ -70,10 +69,10 @@ body{
     color: white;
 }
 .projects{
-    margin-top: 5vh;
+    margin-top: 50vh;
     animation: appears 5s linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 20%;
 }
 .projects h2{
     font-size: 24px;
@@ -90,8 +89,8 @@ body{
     
 }
 .social-icon{
-    width: 110px;
-    height: 110px;
+    width: 120px;
+    height: 120px;
     margin: 0 10px;
     border-radius: 25px;
     animation-timeline: view();
@@ -112,7 +111,6 @@ body{
 }
 .introduction{
     max-width: 35%;
-    msrgin: 0 auto;
 }
 .project-image{
     width: 100%;
@@ -152,7 +150,7 @@ body{
 @keyframes appears {
     from{
         opacity: 0;
-        transform: translateX(-20px);
+        transform: translateX(-100px);
     }
     to {
         opacity: 1;
@@ -160,7 +158,7 @@ body{
     }
     
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .navbar h1 {
         font-size: 20px;
     }
@@ -210,7 +208,7 @@ body{
         font-size: 16px;
     }   
     .social-icon{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
     }
 }
